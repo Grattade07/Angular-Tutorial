@@ -7,5 +7,7 @@ import { Product } from '../products';
   styleUrls: ['./product-alerts.component.css']
 })
 export class ProductAlertsComponent {
+
   @Input() product!: Product;
+  
 }
